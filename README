@@ -1,0 +1,17 @@
+shell.c
+
+An basic shell progrm written in c. Using skeleton code from blackboard.
+
+Support Features:
+
+1.Support basic command: cd exit jobs fg bg.
+2.Support terminal control and foreground, background process. 
+	a)To stop foreground process, use ctrl-z. 
+	b)To terminate foreground process, use ctrl-c.
+	c)To change backgound process (included stopped process) 
+	  to foreground proess, use fg <jobid> .
+	d)To change stopped process to background, use bg <jobid> .
+	e)Running statment in backgound, use '&' in the end.
+3.Support pipe, by using '|'.
+	a)Pipe only support last statment in background.
+	b)Pipe support terminal control.
